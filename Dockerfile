@@ -1,6 +1,6 @@
 # Stage 1: Build the application
 # Use a Maven builder image to package the app
-FROM maven:3.9.6-eclipse-temurin-21-slim AS builder
+FROM maven:3.9.6-eclipse-temurin-21 AS builder
 
 # Set the working directory
 WORKDIR /app
